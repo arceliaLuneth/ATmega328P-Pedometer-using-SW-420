@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.6">
+  <diagram name="Page-1" id="WRF2WTpWxnIoNWGpdXwi">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="iALlUZUhBOuA3n-kUskp-0" />
+        <mxCell id="iALlUZUhBOuA3n-kUskp-1" parent="iALlUZUhBOuA3n-kUskp-0" />
+        <mxCell id="TiMOZaR2J9yN7tEN0ABY-6" edge="1" parent="iALlUZUhBOuA3n-kUskp-1" source="TiMOZaR2J9yN7tEN0ABY-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TiMOZaR2J9yN7tEN0ABY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TiMOZaR2J9yN7tEN0ABY-0" parent="iALlUZUhBOuA3n-kUskp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Power Supply (USB / Powerbak)" vertex="1">
+          <mxGeometry height="60" width="210" x="320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TiMOZaR2J9yN7tEN0ABY-1" parent="iALlUZUhBOuA3n-kUskp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Arduino Uno R3 (ATmega 328)" vertex="1">
+          <mxGeometry height="60" width="170" x="340" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="mk0PrhSFOq1CKPxfgW42-1" edge="1" parent="iALlUZUhBOuA3n-kUskp-1" source="TiMOZaR2J9yN7tEN0ABY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TiMOZaR2J9yN7tEN0ABY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TiMOZaR2J9yN7tEN0ABY-2" parent="iALlUZUhBOuA3n-kUskp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sensor SW-420&lt;div&gt;(Input D2)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="130" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="TiMOZaR2J9yN7tEN0ABY-4" parent="iALlUZUhBOuA3n-kUskp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="LED Indikator&lt;div&gt;(PIN 13)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="550" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="TiMOZaR2J9yN7tEN0ABY-5" parent="iALlUZUhBOuA3n-kUskp-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Serial Monitor Output&lt;div&gt;(Informasi langkah / jarak)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="340" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="TiMOZaR2J9yN7tEN0ABY-8" edge="1" parent="iALlUZUhBOuA3n-kUskp-1" source="TiMOZaR2J9yN7tEN0ABY-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="TiMOZaR2J9yN7tEN0ABY-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiMOZaR2J9yN7tEN0ABY-10" edge="1" parent="iALlUZUhBOuA3n-kUskp-1" source="TiMOZaR2J9yN7tEN0ABY-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="TiMOZaR2J9yN7tEN0ABY-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="735" y="280" as="sourcePoint" />
+            <mxPoint x="610" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mk0PrhSFOq1CKPxfgW42-0" edge="1" parent="iALlUZUhBOuA3n-kUskp-1" source="TiMOZaR2J9yN7tEN0ABY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TiMOZaR2J9yN7tEN0ABY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Page-1" id="abhYObzjkprt-RXGgdfT">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sa2L1__4D7nt-289zqoU-9" edge="1" parent="1" source="Om3OwTpXaAgahl2RlCQG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Om3OwTpXaAgahl2RlCQG-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-10" edge="1" parent="1" source="sa2L1__4D7nt-289zqoU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Inisialisasi pin Sensor, LED, dan Serial Monitor" vertex="1">
+          <mxGeometry height="60" width="225" x="313" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-11" edge="1" parent="1" source="sa2L1__4D7nt-289zqoU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Baca nilai sensor SW-420&lt;div&gt;(nilaisensor = HIGH / LOW)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="215" x="318" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-12" edge="1" parent="1" source="sa2L1__4D7nt-289zqoU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-17" edge="1" parent="1" source="sa2L1__4D7nt-289zqoU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="650" />
+              <mxPoint x="760" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Sensor HIGH&lt;div&gt;AND&lt;/div&gt;&lt;div&gt;Status sebelumnya LOW?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="215" x="318" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-13" edge="1" parent="1" source="sa2L1__4D7nt-289zqoU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="langkah = langkah + 1" vertex="1">
+          <mxGeometry height="60" width="225" x="313" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-14" edge="1" parent="1" source="sa2L1__4D7nt-289zqoU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="jarak = langkah * 0.75" vertex="1">
+          <mxGeometry height="60" width="225" x="313" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-15" edge="1" parent="1" source="sa2L1__4D7nt-289zqoU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LED ON&amp;nbsp;&lt;div&gt;LED OFF&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="225" x="313" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-16" edge="1" parent="1" source="sa2L1__4D7nt-289zqoU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sa2L1__4D7nt-289zqoU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Tampilkan langkah dan jarak ke serial monitor" vertex="1">
+          <mxGeometry height="60" width="307" x="272" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Simpan status sensor sebagai laststate" vertex="1">
+          <mxGeometry height="60" width="225" x="313" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="425" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2L1__4D7nt-289zqoU-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="538" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
