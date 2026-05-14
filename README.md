@@ -34,8 +34,6 @@ Each detected vibration is processed as a step, while the estimated distance is 
 | Jumper Wires | Circuit connections |
 | USB / Powerbank | Power supply |
 
-Hardware specifications are explained in the project documentation.
-
 ---
 
 ## System Workflow
@@ -47,8 +45,6 @@ Hardware specifications are explained in the project documentation.
 5. LED blinks briefly as visual feedback
 6. Distance estimation is calculated automatically
 7. Step count and distance are displayed in Serial Monitor
-
-The flowchart and system logic are documented in the report.
 
 ---
 
