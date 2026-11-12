@@ -6,7 +6,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Arduino%20Uno%20(ATmega328P)-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Language-C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Sensor-SW--420%20Vibration-D97706?style=flat-square" alt="Sensor">
+  <img src="https://img.shields.io/badge/Sensor-SW--420%20Vibration-D97706?style=flat-square&logo=sensor&logoColor=white" alt="Sensor">
   <img src="https://img.shields.io/badge/License-MIT-10B981?style=flat-square" alt="License">
 </p>
 
@@ -73,6 +73,19 @@ $$\text{Distance (meters)} = \text{Steps} \times 0.75$$
 ├── LICENSE           # MIT License
 └── README.md         # Project documentation
 ```
+
+---
+
+## Future Roadmap
+
+Planned enhancements to evolve the prototype into a standalone, wearable device:
+
+* [ ] **Standalone Display Integration:** Add a 0.96" I2C OLED (SSD1306) or 16x2 LCD to display step count and distance without relying on a PC Serial Monitor.
+* [ ] **3-Axis Accelerometer Upgrade:** Transition from the digital SW-420 vibration switch to an IMU sensor (such as MPU6050 or ADXL345) for multi-axis motion filtering and higher step accuracy.
+* [ ] **Physical Controls & Calibration:** Integrate tactile push buttons to reset step counts and allow manual stride-length calibration based on user height.
+* [ ] **Non-Volatile Data Storage:** Utilize the ATmega328P internal EEPROM to retain total steps and distance history across power cycles.
+* [ ] **Power Optimization & Sleep Modes:** Implement AVR deep-sleep states between sensor interrupts to extend battery life.
+* [ ] **Custom PCB & Compact Enclosure:** Migrate from a breadboard setup to a standalone ATmega328P PCB powered by a rechargeable LiPo battery and TP4056 module.
 
 ---
 
