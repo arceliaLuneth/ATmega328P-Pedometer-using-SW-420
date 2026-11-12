@@ -76,13 +76,6 @@ $$\text{Distance (meters)} = \text{Steps} \times 0.75$$
 
 ---
 
-## Author
-
-**Fauzan Novrizal Azmeira**  
-*Computer Engineering | Universitas Pendidikan Indonesia*
-
----
-
 ## License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
